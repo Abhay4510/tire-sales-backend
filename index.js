@@ -7,7 +7,7 @@ const path = require('path');
 
 app.use(
   cors({
-    origin: [/^http:\/\/localhost:\d+$/, "http://localhost:3000"],
+    origin: [/^http:\/\/localhost:\d+$/, "http://localhost:3000","https://tire-sale-frontend.vercel.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   })
